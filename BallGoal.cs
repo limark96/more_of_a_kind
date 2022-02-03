@@ -8,8 +8,8 @@ using UnityEngine.Events;
 /// <summary>
 /// This component is used in Ball_Goal_Prefabs
 /// It's built for a puzzle mehcanics
-/// The player can unlocling gates by pushing a ball to make it fall into a hole on the ground
-/// This scripts triggers the gate from opening
+/// The player can push a ball to make it fall into pits on the ground
+/// When the a ball falls into a pit, this script can trigger certain events, such as opening a gate. 
 /// <summary/>
 [RequireComponent(typeof(Collider))]
 public class BallGoal : MonoBehaviour
